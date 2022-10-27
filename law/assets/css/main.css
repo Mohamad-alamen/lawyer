@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'FrutigerLTArabic';
+    src: url(../fonts/FrutigerLTArabic.ttf);
+}
+
 :root {
-    --color-default: #0a0d13;
-    --color-primary: #0d42ff;
-    --color-secondary: #0e1d34;
+    --color-default: #0E3340;
+    --color-primary: #2e5662;
+    --color-secondary: #0E3340;
 }
 
 :root {
@@ -9,7 +14,7 @@
 }
 
 body {
-    font-family: var(--font-default);
+    font-family: 'FrutigerLTArabic';
     color: var(--color-default);
 }
 
@@ -29,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-primary);
+    font-family: 'FrutigerLTArabic';
 }
 
 
@@ -54,7 +59,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #001973;
+    color: #0E3340;
     position: relative;
     z-index: 2;
     margin-bottom: 20px;
@@ -119,7 +124,7 @@ section {
 
 .breadcrumbs .page-header:before {
     content: "";
-    background-color: rgba(14, 29, 52, 0.8);
+    background-color: rgba(33, 72, 82, 0.247);
     position: absolute;
     inset: 0;
 }
@@ -167,7 +172,7 @@ section {
 .breadcrumbs nav ol li+li::before {
     display: inline-block;
     padding-right: 10px;
-    color: #4278cc;
+    color: #0E3340;
     content: "/";
 }
 
@@ -197,7 +202,7 @@ section {
 }
 
 .scroll-top:hover {
-    background: rgba(13, 66, 255, 0.8);
+    background: #0E3340;
     color: #fff;
 }
 
@@ -294,9 +299,9 @@ section {
 }
 
 .header.sticked {
-    background: rgba(14, 29, 52, 0.9);
+    background: #0D3240;
     padding: 15px 0;
-    box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+    box-shadow: 0px 2px 20px #2E5662;
 }
 
 .header .logo img {
@@ -367,7 +372,7 @@ section {
     .navbar .get-a-quote:hover,
     .navbar .get-a-quote:focus:hover {
         color: #fff;
-        background: #2756ff;
+        background: #2E5662;
     }
     .navbar .dropdown ul {
         display: block;
@@ -498,7 +503,7 @@ section {
     .navbar .get-a-quote:hover,
     .navbar .get-a-quote:focus:hover {
         color: #fff;
-        background: rgba(13, 66, 255, 0.8);
+        background: 0E3340;
     }
     .navbar .dropdown ul,
     .navbar .dropdown .dropdown ul {
@@ -564,7 +569,7 @@ section {
 }
 
 .featured-services .service-item .icon i {
-    color: #001f8d;
+    color: #0E3340;
     font-size: 48px;
     transition: 0.3s;
 }
@@ -619,7 +624,7 @@ section {
     font-weight: 700;
     font-size: 32px;
     font-family: var(--font-secondary);
-    color: #001f8d;
+    color: #0E3340;
 }
 
 .about .content ul {
@@ -644,7 +649,7 @@ section {
 .about .content ul h5 {
     font-size: 18px;
     font-weight: 700;
-    color: #19335c;
+    color: #578499;
 }
 
 .about .content ul p {
@@ -684,7 +689,7 @@ section {
     animation-timing-function: steps;
     opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(13, 66, 255, 0.7);
+    border: 5px solid #0E3340;
     top: -15%;
     left: -15%;
     background: rgba(198, 16, 0, 0);
@@ -782,7 +787,7 @@ section {
 }
 
 .services .card a {
-    color: #001973;
+    color: #0E3340;
     transition: 0.3;
 }
 
@@ -869,7 +874,7 @@ section {
 .features .features-item h3 {
     font-weight: 600;
     font-size: 26px;
-    color: #001973;
+    color: #0E3340;
 }
 
 .features .features-item ul {
@@ -1370,8 +1375,8 @@ section {
 }
 
 .horizontal-pricing .buy-btn:hover {
-    background: #406aff;
-    border-color: #406aff;
+    background: #0E3340;
+    border-color: #2E5662;
 }
 
 .horizontal-pricing .featured {
@@ -1514,7 +1519,7 @@ section {
 }
 
 .get-a-quote .php-email-form button[type=submit]:hover {
-    background: rgba(13, 66, 255, 0.8);
+    background: #0E3340;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1649,7 +1654,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-    background: rgba(13, 66, 255, 0.8);
+    background: #0E3340;
 }
 
 @keyframes animate-loading {
@@ -1738,7 +1743,7 @@ section {
     width: 100%;
     min-height: 50vh;
     background-color: var(--color-secondary);
-    background-image: url("../img/hero-bg.png");
+    background-image: url("../img/Group\ 413.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1795,7 +1800,7 @@ section {
 }
 
 .hero form .btn-primary:hover {
-    background-color: #2756ff;
+    background-color: #0E3340;
 }
 
 .hero .stats-item {
@@ -1906,7 +1911,7 @@ section {
 
 .footer .footer-links ul i {
     padding-right: 2px;
-    color: rgba(13, 66, 255, 0.8);
+    color: #2E5662;
     font-size: 12px;
     line-height: 0;
 }
@@ -1960,4 +1965,103 @@ section {
 
 .gg {
     margin: 20px 0px;
+}
+
+.text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+}
+
+.responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+}
+
+.container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+.responsive-cell-block {
+    min-height: 75px;
+}
+
+.team-head-text {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+}
+
+.name {
+    font-size: 18px;
+    margin-top: 11px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-weight: 700;
+}
+
+.position {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.team-card-container {
+    width: 263px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.teamcard-container {
+    justify-content: space-evenly;
+}
+
+.team-img-wrapper {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.team-img {
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .team-card-container {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .team-img {
+        width: 100%;
+    }
 }
